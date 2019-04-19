@@ -1,4 +1,4 @@
-package versao1;
+package model;
 
 
 public final class App {
