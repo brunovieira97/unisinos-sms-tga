@@ -14,9 +14,13 @@ public class Place implements NetworkNode {
 
 	}
 
-	public Place(int tokenCount, String name) {
-		this.tokenCount = tokenCount;
+	public Place(String name) {
 		this.name = name;
+	}
+
+	public Place(int tokenCount, String name) {
+		this(name);
+		this.setTokenCount(tokenCount);
 	}
 
 	/**

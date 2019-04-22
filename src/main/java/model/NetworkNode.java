@@ -10,4 +10,6 @@ public interface NetworkNode {
 
 	public int getTokenCount();
 
+	public String getName();
+
 }

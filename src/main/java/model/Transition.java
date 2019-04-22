@@ -55,8 +55,16 @@ public class Transition implements NetworkNode {
 		this.tokenCount -= tokenCount;
 	}
 
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public void setTokenCount(int tokenCount) {
 		this.tokenCount = tokenCount;
+	}
+
+	public String getName() {
+		return name;
 	}
 
 	public int getTokenCount() {
